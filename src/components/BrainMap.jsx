@@ -58,11 +58,11 @@ const CONTENT = {
     body: (
       <div>
         <p className="mb-5">
-          I am a recent dual-major graduate from the University of
-          Wisconsin-Madison, holding Bachelor's Degrees in Computer
-          Sciences and Data Science. I focus on building robust,
-          scalable logic and bridging the gap between raw data and
-          actionable engineering.
+          I am a recent University of Wisconsin-Madison graduate with a 
+          double major in Computer Science and Data Science. My particular
+          interests are in predictive analytics using machine learning 
+          and neural networks, as well as the intersection of biology 
+          and technology, specifically neuromorphic computing.        
         </p>
       </div>
     ),
