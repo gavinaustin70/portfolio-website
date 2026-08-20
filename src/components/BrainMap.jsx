@@ -3,11 +3,12 @@ import profilePic from '../assets/profile-pic.png';
 import githubIcon from '../assets/github.svg';
 import linkedinIcon from '../assets/linkedin.svg';
 import figmaIcon from '../assets/figma.svg';
+import resumePdf from '../assets/resume.pdf';
 
 const SOCIALS = [
   {
     name: 'GitHub',
-    href: '#',
+    href: 'https://github.com/gavinaustin70',
     icon: githubIcon,
   },
   {
@@ -15,11 +16,13 @@ const SOCIALS = [
     href: 'https://www.linkedin.com/in/gavin-austin-625473259/',
     icon: linkedinIcon,
   },
+  /*
   {
     name: 'Figma',
     href: '#',
     icon: figmaIcon,
   },
+  */
 ];
 
 const LOBES = [
@@ -243,7 +246,7 @@ export default function BrainMap() {
 
             {/* Resume CTA */}
             <a
-              href="/resume.pdf"
+              href={resumePdf}
               target="_blank"
               rel="noopener noreferrer"
               className="ml-2 inline-flex items-center gap-2 px-6 py-2.5 rounded-full font-bold transition-all duration-200 hover:-translate-y-1 hover:shadow-lg"
