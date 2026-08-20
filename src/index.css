@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #020617;
+  font-family: 'Inter', sans-serif;
+  /* Removed: overflow: hidden; */
+  /* Removed: height: 100%; */
+}
+
+#root {
+  /* Removed display: flex and centering properties to allow natural scrolling */
+  min-height: 100vh;
+  min-height: 100dvh;
+  width: 100vw;
+}
